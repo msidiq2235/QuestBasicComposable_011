@@ -16,7 +16,6 @@ import com.example.coba.ui.theme.CobaTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             CobaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
