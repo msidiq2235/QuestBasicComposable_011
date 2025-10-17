@@ -20,7 +20,6 @@ class MainActivity : ComponentActivity() {
             CobaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     TataLetakBoxColumnRow(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -28,5 +27,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-
